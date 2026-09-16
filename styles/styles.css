@@ -1,0 +1,40 @@
+/*CSS RESET*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header{
+    background-color: rgb(160, 75, 199);
+    color: rgb(80, 101, 139);
+    padding: 1rem 2rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a{
+    color: rgb(20, 25, 32);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a::hover{
+    color: rgb(32, 33, 77);
+}
